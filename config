@@ -1,0 +1,15 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/xtianmarucco/staff-mannagement-app.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	pushurl = https://github.com/xtianmarucco/staff-mannagement-app.git
+[remote "staff-mannagement-app"]
+	url = https://github.com/xtianmarucco/staff-mannagement-app.git
+	fetch = +refs/heads/*:refs/remotes/staff-mannagement-app/*
+	tagopt = --no-tags
+	pushurl = git@github.com:xtianmarucco/staff-mannagement-app.git
