@@ -6,18 +6,17 @@ import { Member } from '../staff.model';
   styleUrls: ['./staff-list.component.css']
 })
 export class StaffListComponent implements OnInit {
- Members: Member  [] = [
-   new Member( 'sergio','lamberti','32','evil corp',
-   'meksikan','front-end Dev','universitary student','hardworking','DB engineer','https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/durchschnittsgesichter/m(01-32)_gr.jpg')
+  members: Member[];
 
-   
- ];
-
-
-  constructor() { }
-
-  ngOnInit() {
+  constructor() {
+    this.members = [
+      new Member('sergio', 'lamberti', '32', 'evil corp',
+        'meksikan', 'IT guy', 'universitary student', 'hardworking', 'DB engineer',
+        'https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/durchschnittsgesichter/m(01-32)_gr.jpg'
+      )];
   }
 
+  ngOnInit() {
+    console.log(this.members)
+  }
 }
-console.log(Member)
