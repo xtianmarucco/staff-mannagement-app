@@ -7,8 +7,8 @@ import { Member } from '../staff.model';
 })
 export class StaffListComponent implements OnInit {
  Members: Member  [] = [
-   new Member( 'asdas','asdas','asdas','asdasd',
-   'asdad','asdasd','sdasdas','asdas','asdasd','asdas')
+   new Member( 'sergio','lamberti','32','evil corp',
+   'meksikan','big boss','universitary student','hardworking','DB engineer','https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/durchschnittsgesichter/m(01-32)_gr.jpg')
 
    
  ];

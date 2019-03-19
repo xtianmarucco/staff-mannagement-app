@@ -1,1 +1,26 @@
-<app-staff-item> </app-staff-item>
+<div class="row">
+    <div class="col-xs-12">
+            <button type="button" class="btn btn-primary">Add member</button>
+    </div>
+    <br>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <a href="#" class="list-group-item clearfix"
+        *ngFor="let member of members">
+        <div class="pull-left">
+            <h4 class="list-group-item-heading"> {{ member.name + ' ' + lastName }}</h4>
+            <br>
+            <h5> {{member.position}}</h5>
+            <br>
+            <span class="pull-right">
+                <img src="https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/durchschnittsgesichter/m(01-32)_gr.jpg" alt="" class="img-responsive" style="max-height: 80px;">
+            </span>
+        
+            
+            
+        </div>    
+        </a>
+        <app-staff-item></app-staff-item>
+    </div>
+</div>
