@@ -10,6 +10,8 @@ import { StaffItemComponent } from './staff/staff-list/staff-item/staff-item.com
 import { StaffDetailComponent } from './staff/staff-detail/staff-detail.component';
 import { InfoMemberComponent } from './info-member/info-member.component';
 import { InfoMemberEditComponent } from './info-member/info-member-edit/info-member-edit.component';
+import { TaskListComponent } from './task-list/task-list.component';
+import { TaskListEditComponent } from './task-list/task-list-edit/task-list-edit.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { InfoMemberEditComponent } from './info-member/info-member-edit/info-mem
     StaffItemComponent,
     StaffDetailComponent,
     InfoMemberComponent,
-    InfoMemberEditComponent
+    InfoMemberEditComponent,
+    TaskListComponent,
+    TaskListEditComponent
   ],
   imports: [
     BrowserModule

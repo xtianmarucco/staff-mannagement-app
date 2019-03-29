@@ -1,7 +1,15 @@
 <div class="row">
     <div class="col-xs-10">
-      <app-info-member-edit></app-info-member-edit>
+      
       <hr>
-           <p>the list</p>
+<ul class="list-group">
+  <a class="list-group-item" style="cursor:pointer"
+  *ngFor="let task of tasks">
+{{ task.name }} ({{ task.description}})
+
+</a>
+
+</ul>
+
     </div>
   </div>
