@@ -15,10 +15,10 @@ export class StaffListComponent implements OnInit {
         'meksikan', 'Marketing', 'universitary student', 'hardworking', 'DB engineer',
         'https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/durchschnittsgesichter/m(01-32)_gr.jpg'
       ),
-      new Member('sergio', 'lamberti', '32', 'evil corp',
-        'meksikan', 'IT guy', 'universitary student', 'hardworking', 'DB engineer',
-        'https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/durchschnittsgesichter/m(01-32)_gr.jpg'
-      )
+      new Member('Peter', 'parker', '32', 'evil corp',
+      'meksikan', 'network admin', 'universitary student', 'hardworking', 'DB engineer',
+      'https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/durchschnittsgesichter/m(01-32)_gr.jpg'
+    )
     ];
 
   }
