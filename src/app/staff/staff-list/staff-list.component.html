@@ -1,12 +1,9 @@
+
+<div class="container">
+
 <br>
 <div class="row">
     <div class="col-xs-12">
-        <button type="button" class="btn btn-primary">Add member</button>
-    </div>
-</div>
-<br>
-<div class="row">
-    <div class="col-xs-12" style="">
         <a href="#" class="list-group-item clearfix" *ngFor="let member of members">
             <div class="float-right">
                 <h4 class="list-group-item-heading"> {{ member.name + ' ' + member.lastName }}</h4>
@@ -18,6 +15,12 @@
             </span>
 
         </a>
-        <app-staff-item></app-staff-item>
+    </div>
+</div>
+<br>
+<div class="row">
+        <div class="col-xs-12">
+            <button type="button" class="btn btn-primary">Add member</button>
+        </div>
     </div>
 </div>
